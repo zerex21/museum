@@ -688,6 +688,12 @@ h3 {
   max-width: 1440px;
 }
 
+card{
+    a{
+        text-decoration: none;
+    }
+}
+
 .welcome {
   background-color: #030303;
 }
@@ -738,5 +744,3 @@ h3 {
 .button_coller:hover {
   background-color: #9d8665;
 }
-
-/*# sourceMappingURL=style.css.map */
