@@ -1,0 +1,45 @@
+.explore {
+   background-color: $color-black;
+}
+
+.explore__container {
+   display: flex;
+   padding: 75px 0 71px 16px;
+
+   h2 {
+      max-width: 660px;
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 80px;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: $color-white;
+      border-bottom: 3px solid $color-red;
+      padding-bottom: 25px;
+   }
+
+   .explore__description{
+    padding: 76px 65px 0 0;
+    min-width: 655px;
+   }
+
+   p {
+      padding-bottom: 26px;
+      color: $color-white;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 38px;
+
+      span {
+         color: #CAAA7D;
+      }
+   }
+}
+
+.image__restored{
+   padding: 15px 0 0 0;
+}

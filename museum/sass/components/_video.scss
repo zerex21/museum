@@ -1,0 +1,131 @@
+.video__player {
+    width: 1440px;
+    height: 714px;
+    padding: 40px 0 0 0px;
+    background-image: url("../assets/img/video/Frame (1).jpg");
+    background-repeat: no-repeat;
+    margin: 90px 0 0 8px;
+
+}
+
+.video__content {
+    display: flex;
+    justify-content: space-between;
+    padding:0 0 75px 8px;
+
+    h2 {
+       
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 90px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: $color-gold;
+    }
+
+    p { 
+        margin-right: -8px;
+        max-width: 720px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 38px;
+        color: $color-black;
+        display: flex;
+        align-items: center;   
+    }
+}
+
+.video__img {
+    margin: 165px 0px 0 610px;  
+}
+
+.elements__control{
+    display: flex;
+}
+
+.video-navigation{
+    display: flex;
+    padding: 228px 0 0 21px;
+    min-width:200px;
+    justify-content: space-around;
+}
+
+.video-player{
+    padding: 233px 0 0 20px;
+}
+
+.sound{
+    display: flex;
+}
+
+.progress {
+    background: linear-gradient(to right,#24809E, 0%,  $color-blue 47%, #24809E, 47%, #fff 100%);
+    height: 8px;
+    width: 820px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+  }
+  
+  .progress::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: $color-white;
+  }
+
+  .video-sound{
+      padding: 228px 0 0 41px ;
+  }
+
+  .sound-range{
+    padding: 233px 0 0 20px;
+}
+
+  .volume {
+    background: linear-gradient(to right,#24809E, 0%,  $color-blue 43%, #24809E, 43%, #fff 100%);
+    height: 8px;
+    width: 155px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;;
+  }
+  
+  .volume::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    background: $color-white;
+  }
+
+  .size__control{
+    padding: 225px 0 0 48px;
+  }
+
+  .video-prev:hover{
+    background-color: violet;
+  }
+  .video-pause:hover{
+    background-color: violet;
+  }
+  .video-next:hover{
+    background-color: violet;
+  }
+
+  .video-size:hover{
+    background-color: violet;
+  }
+
+  .video__img:hover{
+ background-color: violet; 
+ max-width: 220px;
+ border-radius: 50%;
+} 

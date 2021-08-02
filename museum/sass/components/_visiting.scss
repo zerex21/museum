@@ -1,0 +1,70 @@
+.visiting__container {
+
+    h2 {
+        padding: 75px 0 25px 8px;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 90px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: $color-gold;
+        border-bottom: 3px solid $color-red;
+    }
+
+    margin-bottom: -3px;
+}
+
+.layout-3-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 1440px;
+    padding: 75px 0 0 8px;
+
+    h3 {
+        padding: 21px 0 9px 0;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 35px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: $color-black;
+
+    }
+
+    p {
+        padding-top: 11px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 22px;
+        line-height: 26px;
+        color: $color-black;
+    }
+
+    p:nth-child(odd) {
+        max-width: 300px;
+        border-top: 2px solid $color-red;
+    }
+
+    p:nth-child(even) {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 21px;
+        color: $color-black;
+        padding-bottom: 75px;
+    }
+}
+
+.card:hover {
+    p {
+        transition-duration: 3s;
+        max-width: 1440px;
+    }
+}

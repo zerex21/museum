@@ -1,0 +1,58 @@
+.contacts__container {
+padding-bottom: 71px;
+    h2 {
+        padding: 75px 0 25px 8px;
+        color: $color-gold;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 90px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        border-bottom: 3px solid $color-red;
+    }
+
+    span {
+        color: $color-black;
+        min-width: 50px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 33px;
+
+    }
+
+    p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+        color: $color-black;
+    }
+}
+
+.contack-section{
+    padding-top: 18px;
+}
+
+.contacts__content{
+    padding: 85px 0px 0 9px;
+    p{
+        padding-top: 20px;
+    }
+}
+
+.contact__address {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__map{
+    padding: 75px 0 0 0;
+
+img{
+    margin-right: -8px;
+}
+}
