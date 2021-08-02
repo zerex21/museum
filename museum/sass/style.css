@@ -688,6 +688,12 @@ h3 {
   max-width: 1440px;
 }
 
+card{
+    a{
+        text-decoration: none;
+    }
+}
+
 .welcome {
   background-color: #030303;
 }
