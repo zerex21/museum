@@ -1,0 +1,198 @@
+.tickets {
+    background-color: $color-black;
+}
+
+.tickets__container {
+    padding: 0 0 75px 0;
+
+    h2 {
+        padding: 75px 0 0 9px;
+        color: $color-white;
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 90px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+}
+
+.choice__ticket {
+    border-top: 3px solid $color-red;
+    margin: 25px 0 0 8px;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        padding-top: 75px;
+    }
+}
+
+.select__ticket {
+    padding: 0 0 0 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: $color-white;
+
+    p {
+        color: $color-white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        padding: 75px 0 50px 0;
+    }
+}
+
+.radio_btn {
+
+    padding-bottom: 50px;
+
+    input {
+        border: 2px solid #FFFFFF;
+        border-radius: 50%;
+        margin-right: 22px;
+        box-sizing: border-box
+    }
+}
+
+.amount {
+    padding: 75px 0 0 201px;
+    margin-right: -33px;
+
+    p {
+        padding: 0 0 12px 75px;
+        color: $color-white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    span {
+
+        color: $color-white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+
+    }
+
+    button {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: 2px;
+        color: $color-black;
+        border: none;
+        //padding-right:40px;
+    }
+}
+
+.block {
+    padding-bottom: 38px;
+    padding-left: 25px;
+
+    span {
+        color: $color-white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
+
+.button__border {
+    cursor: pointer;
+    width: 175px;
+    height: 50px;
+    background: $color-white;
+    border-radius: 2px;  
+    
+}
+
+.block_square {
+    
+    padding-top: 5px;
+    width: 150px;
+    height: 50px;
+    left: 0px;
+    top: 40px;
+    border: 3px solid $color-white;
+    box-sizing: border-box;
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-around;
+
+    .minus {
+        cursor: pointer;
+        margin-left: -7px;
+        color: $color-white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+
+    }
+
+    .figures {
+      
+        padding: 7px 0 0 3px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+        color: $color-white;
+        text-align: center;
+    }
+
+    .plus {
+        cursor: pointer;
+        margin-right: -7px;
+        color: $color-white;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+    }
+}
+
+
+.block_square {
+    margin-top: 12px;
+}
+
+.price {
+    padding: 12px 0 50px 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: $color-white;
+    letter-spacing: 1.65px;
+}
+
+ .send_info{
+padding-right: 25px;
+} 
+
+.button__border:hover{
+    background-color: $color-gold;
+}

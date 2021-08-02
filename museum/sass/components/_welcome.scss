@@ -1,0 +1,54 @@
+.welcome {
+   background-color: $color-black;
+
+}
+
+.welcome__container {
+   display: flex;
+}
+
+.welcome__content {
+   position: absolute;
+   z-index: 5;
+   min-width: 598px;
+   justify-content: space-between;
+   padding: 112px 95px 0 0;
+
+   h2 {
+      padding: 2px 0 25px 9px;
+      color: $color-white;
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 80px;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+   }
+
+   p {
+      padding: 0 0 76px 8px;
+      color: $color-white;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 28px;
+      letter-spacing: 2px;
+   }
+}
+
+
+.welcome__slider {
+   padding:0 0 0 473px;
+   background-position: calc(100% - 20px) calc(100% - 10px);
+   img {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: stretch;
+   }
+}
+
+.button_coller:hover{
+background-color: $color-gold;
+}

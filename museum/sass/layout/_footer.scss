@@ -1,0 +1,93 @@
+ .footer{
+    background: $color-black;
+}
+
+.footer__container{
+display: flex;
+padding: 76px 0 75px 0;
+}
+
+.footer-navigation{
+    display: flex;
+    padding-left: 56px;
+}
+ .navigation__block1{
+    padding-right: 41px;
+} 
+.sprite{
+    display: flex;
+    justify-content: space-between;
+    min-width: 336px;
+    padding: 88px 0 0 364px;
+
+    /* a{
+        text-decoration: none
+    } */
+}
+
+.youtube-objects{
+    visibility: hidden;
+}
+.youtube:hover{
+    .youtube-object{
+        display: none;
+    }
+    .youtube-objects{
+        visibility: visible;
+        padding-bottom:100px ;
+    
+    }
+}
+
+.facebook-objects{
+    visibility: hidden;
+}
+.facebook:hover{
+    .facebook-object{
+        display: none;
+    }
+    .facebook-objects{
+        visibility: visible;
+        padding-bottom:100px ;
+    
+    }
+}
+
+.twitter-objects{
+    visibility: hidden;
+}
+.twitter:hover{
+    .twitter-object{
+        display: none;
+    }
+    .twitter-objects{
+        visibility: visible;
+        padding-bottom:100px ;
+    
+    }
+}
+.pinterest-objects{
+    visibility: hidden;
+}
+.pinterest:hover{
+    .pinterest-object{
+        display: none;
+    }
+    .pinterest-objects{
+        visibility: visible;
+        padding-bottom:100px ;
+    
+    }
+}
+.instagram-objects{
+    visibility: hidden;
+}
+.instagram:hover{
+    .instagram-object{
+        display: none;
+    }
+    .instagram-objects{
+        visibility: visible;
+        padding-bottom:100px ;
+    }
+}
