@@ -4,7 +4,7 @@
   "description": "Private repository for @zerex21",
   "main": "index.js",
   "scripts": {
-    "style":"sass --watch museum/sass/style.scss museum/sass/style.css",
+    "style": "sass --watch museum/sass/style.scss museum/sass/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
